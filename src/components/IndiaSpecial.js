@@ -25,7 +25,7 @@ const IndiaSpecial=()=>{
         </div>
         <div className="col-12 col-md-4" >
         <h1 style={{fontFamily:'"Jomolhari",serif',color:'black'}}>North Indian</h1>
-        <Common name={"northindian"}/>
+        <Common name={"north india"}/>
 
         </div>
         

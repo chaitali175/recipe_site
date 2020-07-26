@@ -48,7 +48,7 @@ function SearchForm() {
   
      <div className="background animated">
     
-     <h1>Search Your Favourite Food</h1>
+     <h1 style={{marginTop:'30px'}} >Search Your Favourite Food</h1>
      <br/>
      <form onSubmit={onSubmit} className="search-form">
        {alert !== "" && <Alert alert={alert} />}

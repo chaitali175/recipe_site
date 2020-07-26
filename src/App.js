@@ -1,13 +1,14 @@
 import React from 'react';
 import Home from './Home';
 import './App.css';
+
 import {Switch, Route, Redirect} from 'react-router-dom';
 import Healthy from './components/Healthy';
 import Dessert from './components/Dessert';
 import Snacks from './components/Snacks';
 import  Navbar from './Navbar';
 import  IndiaSpecial from './components/IndiaSpecial';
-
+import Footer from './Footer'
 
 
 const App =()=>{
@@ -17,7 +18,12 @@ const App =()=>{
   return(
     <>
     <Navbar/>
-  
+
+    
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <Switch>
     <Route  exact path="/" component={Home} />
       
@@ -38,8 +44,8 @@ const App =()=>{
     </Switch>
 
   
-    
-    
+  
+   
    </>
   )
 }

@@ -12,7 +12,7 @@ const Snacks=()=>{
     return(
         <>
     
-        <h1 style={{color:'black' ,textAlign:'center',marginTop:'50px', fontFamily:'"Jomolhari",serif', fontSize:'3rem'}}>
+        <h1 style={{color:'whitesmoke' ,textAlign:'center',marginTop:'50px', fontFamily:'"Jomolhari",serif', fontSize:'4rem'}}>
         Delicious Snacks Recipes</h1>
 
       <Common name={"snacks"}/>   

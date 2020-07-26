@@ -13,7 +13,7 @@ const Dessert=()=>{
         <>
     
        
-        <h1 style={{color:'black' ,textAlign:'center',marginTop:'50px',fontSize:'3rem'}}>Recipes Of Sweet Dishes</h1>
+        <h1 style={{color:'whitesmoke' ,textAlign:'center',marginTop:'50px',fontSize:'4rem'}}>Recipes Of Sweet Dishes</h1>
       
         <Common name={"sweets"}/>
 

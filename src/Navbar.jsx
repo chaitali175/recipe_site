@@ -19,7 +19,7 @@ const Navbar = ()=>{
               
               
 
-          <nav className="navbar navbar-expand-lg  " style={{paddingBottom:'10px', paddingTop:'10px'}}>
+          <nav className="navbar navbar-expand-lg  fixed-top  " style={{paddingBottom:'10px', paddingTop:'10px'}}>
         
             <NavLink className="navbar-brand" to="/">SEARCH RECIPE</NavLink>
             <button className="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

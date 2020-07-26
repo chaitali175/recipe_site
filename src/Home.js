@@ -19,15 +19,17 @@ const Home=()=>{
         
         <br/>
         <br/>
-        <h1 style={{textAlign:'center', color:'black',fontSize:'4rem'}}>Try Some Latest Recipes</h1>
+        <h2 style={{textAlign:'center', color:'whitesmoke',fontSize:'4rem' ,fontFamily:'"Jomolhari", serif'}}>Try Some Latest Recipes</h2>
         <div className="App " >
           <Common name={"latest"}/>
       </div>
 
+
         </>
-    )
+    );
+    
 
+    }
 
-}
 
 export default Home;
